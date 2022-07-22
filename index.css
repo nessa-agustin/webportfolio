@@ -1,0 +1,21 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo-brand {
+    height: 8vh;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.nav-link {
+    background-color: rgb(88, 9, 88);
+    font-weight: 600;
+    color: white;
+}
