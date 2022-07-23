@@ -6,6 +6,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url("images/bg-pic-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgb(61, 57, 68);
+    color: #DBE8D4;
+    /* position: relative; */
+
+}
+
 #logo-brand {
     height: 8vh;
 }
@@ -14,8 +26,25 @@ html {
     padding-right: 10px;
 }
 
-.nav-link {
-    background-color: rgb(88, 9, 88);
+.nav-link.active, #btnResume {
+    background-color: rgb(88, 9, 88) !important;
     font-weight: 600;
     color: white;
 }
+
+#lblName {
+    letter-spacing: 20px;
+}
+
+#landing-page {
+    height: 100vh;
+    padding-top: 200px;
+}
+
+main h3 {
+    letter-spacing: 20px;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid #DBE8D4;
+}
+
+

@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbarSection">
         <a class="navbar-brand" href="#">
             <img class="img-fluid" src="images/nessa-animate.gif" alt="logo-brand" id="logo-brand">
         </a>
@@ -30,16 +30,16 @@
           <!-- <ul class="navbar-nav ml-auto"> -->
         <ul class="nav nav-pills nav-fill ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="#landing-page">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -49,29 +49,66 @@
     <!-- End of navbar -->
 
     <!-- Landing Page -->
+    <div class="text-center mb-5" id="landing-page">
+      <h1 class="display-4" id="lblName">NESSA AGUSTIN</h1>
+      <h3>THE FULL STACK WEB DEVELOPER JOURNEY</h3>
+      <img class="img-fluid rounded-circle" src="images/profile-3.png" alt="profile-pic">
+      <h4>Welcome to my Portfolio.</h4>
+    </div>
 
 
 
     <!-- End of Landing page -->
 
-    <!-- About Me -->
+    <main role="main">
+      <div class="container" data-spy="scroll" data-target="#navbarSection" data-offset="0">
+        
+        <!-- About Me -->
+        <h3 class="text-center" id="about-me">ABOUT ME</h3>
+        <div class="text-center my-5">
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus fugiat libero possimus tempora? Hic magnam nobis numquam consectetur laborum aperiam, odio incidunt in labore omnis? Nihil illum obcaecati quos animi, incidunt molestiae fugiat, doloremque harum illo culpa cupiditate odit, fuga quis deleniti qui. Placeat, magnam. Eos nisi maxime repellat laboriosam? Dignissimos placeat laudantium hic perferendis. Sunt sed repudiandae nam numquam totam facere sapiente ad quas voluptates nobis. Temporibus aliquam sed nisi culpa sequi, tempore ducimus numquam sit voluptate optio obcaecati dignissimos consectetur itaque deserunt aperiam? Eveniet accusantium adipisci ab nobis et, commodi iusto eaque minima alias cupiditate veniam voluptate error, nostrum optio vitae nemo laudantium reiciendis quas ipsam blanditiis architecto. Obcaecati consequatur voluptatum qui soluta porro, ut magnam, animi odit, doloremque veritatis dolorem voluptatem nihil! Earum et expedita tempore facilis autem corrupti quam veritatis, dolores blanditiis explicabo atque ea? Necessitatibus quod accusamus dicta aliquid eligendi voluptatibus quia sint modi placeat quidem earum officia, iusto beatae cum aspernatur ex laudantium ea ipsum odio vel omnis, deleniti vero numquam culpa? Expedita, cum! Excepturi officiis placeat nulla dolor corrupti unde, laborum voluptatum nobis vitae porro eveniet! Facere repellendus perspiciatis harum nisi quasi rem mollitia minima explicabo dolore! Magnam quas aut id pariatur.
+            </article>
+            <button class="btn text-center my-3" id="btnResume" href="#">View My Resume</button>
+        </div>
+        <!-- End of About Me -->
+
+        <!-- Projects -->
+        <h3 class="text-center" id="about-me">PROJECTS</h3>
+        <div class="d-flex flex-column flex-md-row">
+          <div class="card bg-secondary m-4">
+            <div class="card header">
+                <h4>OQAT</h4>
+            </div>
+            <div class="card-body">
+              <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+            </div>
+            <div class="card-footer">
+              <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+            </div>
+          </div>
+          <div class="card m-4">
+            <div class="card header">
+                <h4>OQAT</h4>
+            </div>
+            <div class="card-body">
+              <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+            </div>
+            <div class="card-footer">
+              <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+              <p><small>Angular | ASP.Net Core 3.1</small></p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <!-- End of Projects -->
+        <!-- Contact -->
+        <!-- End of Contact -->
+      </div>
+    </main>
 
 
-
-    <!-- End of About Me -->
-
-
-    <!-- Projects -->
-
-
-
-    <!-- End of Projects -->
-
-
-    <!-- Contact -->
-
-
-    <!-- End of Contact -->
 
     <!-- Footer -->
 
