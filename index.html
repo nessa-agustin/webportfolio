@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbarSection">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="navbarSection">
         <a class="navbar-brand" href="#">
             <img class="img-fluid" src="images/nessa-animate.gif" alt="logo-brand" id="logo-brand">
         </a>
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <!-- <ul class="navbar-nav ml-auto"> -->
         <ul class="nav nav-pills nav-fill ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link active" href="#landing-page">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -49,11 +49,24 @@
     <!-- End of navbar -->
 
     <!-- Landing Page -->
-    <div class="text-center mb-5" id="landing-page">
+    <!-- <div class="text-center mb-5" id="landing-page">
       <h1 class="display-4" id="lblName">NESSA AGUSTIN</h1>
       <h3>THE FULL STACK WEB DEVELOPER JOURNEY</h3>
       <img class="img-fluid rounded-circle" src="images/profile-3.png" alt="profile-pic">
       <h4>Welcome to my Portfolio.</h4>
+    </div> -->
+    <div class="container mb-5" id="landing-page">
+      <div class="row bg-light p-5">
+        <div class="col-12 col-md-4">
+          <img class="img-fluid" src="images/profile.jpg" alt="profile-pic">
+        </div>
+        <div class="col-12 col-md-8 text-center my-auto text-dark">
+          <h1>NESSA  AGUSTIN</h1>
+          <h3>THE FULL STACK WEB DEVELOPER JOURNEY</h3>
+          <h4>Welcome to my Portfolio!</h4>
+          
+        </div>
+      </div>
     </div>
 
 
@@ -64,46 +77,151 @@
       <div class="container" data-spy="scroll" data-target="#navbarSection" data-offset="0">
         
         <!-- About Me -->
-        <h3 class="text-center" id="about-me">ABOUT ME</h3>
-        <div class="text-center my-5">
-            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus fugiat libero possimus tempora? Hic magnam nobis numquam consectetur laborum aperiam, odio incidunt in labore omnis? Nihil illum obcaecati quos animi, incidunt molestiae fugiat, doloremque harum illo culpa cupiditate odit, fuga quis deleniti qui. Placeat, magnam. Eos nisi maxime repellat laboriosam? Dignissimos placeat laudantium hic perferendis. Sunt sed repudiandae nam numquam totam facere sapiente ad quas voluptates nobis. Temporibus aliquam sed nisi culpa sequi, tempore ducimus numquam sit voluptate optio obcaecati dignissimos consectetur itaque deserunt aperiam? Eveniet accusantium adipisci ab nobis et, commodi iusto eaque minima alias cupiditate veniam voluptate error, nostrum optio vitae nemo laudantium reiciendis quas ipsam blanditiis architecto. Obcaecati consequatur voluptatum qui soluta porro, ut magnam, animi odit, doloremque veritatis dolorem voluptatem nihil! Earum et expedita tempore facilis autem corrupti quam veritatis, dolores blanditiis explicabo atque ea? Necessitatibus quod accusamus dicta aliquid eligendi voluptatibus quia sint modi placeat quidem earum officia, iusto beatae cum aspernatur ex laudantium ea ipsum odio vel omnis, deleniti vero numquam culpa? Expedita, cum! Excepturi officiis placeat nulla dolor corrupti unde, laborum voluptatum nobis vitae porro eveniet! Facere repellendus perspiciatis harum nisi quasi rem mollitia minima explicabo dolore! Magnam quas aut id pariatur.
-            </article>
-            <button class="btn text-center my-3" id="btnResume" href="#">View My Resume</button>
-        </div>
+        <section class="view-section" id="about-me"> 
+          <h3 class="text-center" >ABOUT ME</h3>
+          <div class="text-center my-5">
+              <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus fugiat libero possimus tempora? Hic magnam nobis numquam consectetur laborum aperiam, odio incidunt in labore omnis? Nihil illum obcaecati quos animi, incidunt molestiae fugiat, doloremque harum illo culpa cupiditate odit, fuga quis deleniti qui. Placeat, magnam. Eos nisi maxime repellat laboriosam? Dignissimos placeat laudantium hic perferendis. Sunt sed repudiandae nam numquam totam facere sapiente ad quas voluptates nobis. Temporibus aliquam sed nisi culpa sequi, tempore ducimus numquam sit voluptate optio obcaecati dignissimos consectetur itaque deserunt aperiam? Eveniet accusantium adipisci ab nobis et, commodi iusto eaque minima alias cupiditate veniam voluptate error, nostrum optio vitae nemo laudantium reiciendis quas ipsam blanditiis architecto. Obcaecati consequatur voluptatum qui soluta porro, ut magnam, animi odit, doloremque veritatis dolorem voluptatem nihil! Earum et expedita tempore facilis autem corrupti quam veritatis, dolores blanditiis explicabo atque ea? Necessitatibus quod accusamus dicta aliquid eligendi voluptatibus quia sint modi placeat quidem earum officia, iusto beatae cum aspernatur ex laudantium ea ipsum odio vel omnis, deleniti vero numquam culpa? Expedita, cum! Excepturi officiis placeat nulla dolor corrupti unde, laborum voluptatum nobis vitae porro eveniet! Facere repellendus perspiciatis harum nisi quasi rem mollitia minima explicabo dolore! Magnam quas aut id pariatur.
+              </article>
+              <a class="btn text-center my-3" id="btnResume" href="http://drive.google.com/uc?export=view&id=1EfEnKsEL4zvaxDA-_r8M_adM9flrkPoU" target="_blank">View My Resume</a>
+          </div>
+        </section>
         <!-- End of About Me -->
 
         <!-- Projects -->
-        <h3 class="text-center" id="about-me">PROJECTS</h3>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="card bg-secondary m-4">
-            <div class="card header">
-                <h4>OQAT</h4>
+        <section class="" id="projects">
+          <h3 class="text-center">PROJECTS</h3>
+          <div class="d-flex flex-column flex-md-row">
+            
+            <!-- project 1 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+              </div>
             </div>
-            <div class="card-body">
-              <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+            
+            <!-- project 2 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+                <p><small>Angular | ASP.Net Core 3.1</small></p>
+              </div>
             </div>
-            <div class="card-footer">
-              <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+
+            <!-- project 3 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+                <p><small>Angular | ASP.Net Core 3.1</small></p>
+              </div>
             </div>
           </div>
-          <div class="card m-4">
-            <div class="card header">
-                <h4>OQAT</h4>
+
+          <div class="d-flex flex-column flex-md-row">
+            
+            <!-- project 4 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+              </div>
             </div>
-            <div class="card-body">
-              <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+            
+            <!-- project 5 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+                <p><small>Angular | ASP.Net Core 3.1</small></p>
+              </div>
             </div>
-            <div class="card-footer">
-              <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
-              <p><small>Angular | ASP.Net Core 3.1</small></p>
+
+            <!-- project 6 -->
+            <div class="card bg-secondary m-4">
+              <div class="card-header">
+                  <h4>OQAT</h4>
+              </div>
+              <div class="card-body">
+                <img class="img-fluid" src="https://placekitten.com/300/300" alt="">
+              </div>
+              <div class="card-footer">
+                <p>An online tool used to encode a clinician's assessment of a patient. Includes dashboard, charts, datatable reports.</p>
+                <p><small>Angular | ASP.Net Core 3.1</small></p>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
         
         
         
         <!-- End of Projects -->
         <!-- Contact -->
+        <section class="view-section" id="contact">
+          <h3 class="text-center mb-5">CONTACT</h3>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h4>LET'S CHAT</h4>
+              <ul>
+                <li><span><i class="fa-solid fa-at"></i></span><a href="mailTo:nessa.agustin@gmail.com">nessa.agustin@gmail.com</a></li>
+                <li><span><i class="fa-solid fa-mobile-screen"></i></span>(+63)9287613981</li>
+                <li><span><i class="fa-brands fa-linkedin"></i></span><a href="https://www.linkedin.com/in/nessa-agustin/">linkedin.com/in/nessa-agustin/</a></li>
+                <li><span><i class="fa-brands fa-github"></i></span><a href="https://github.com/HealthConnectNhey">github.com/HealthConnectNhey</a></li>
+                <li><span><i class="fa-brands fa-facebook"></i></span><a href="https://www.facebook.com/nessa.agustin">facebook.com/nessa.agustin</a></li>
+              </ul>
+
+              <p>
+                Got a question or just want to say hi. Send me a message and I'll try my best to get back to you!
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <h4>Message</h4>
+              <form action="#">
+                <div class="form-group">
+                  <label for="txt-name">Name: </label>
+                  <input class="form-control" type="text" name="name" id="txt-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txt-email">Email: </label>
+                  <input class="form-control" type="text" name="email" id="txt-email" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txt-msg">Message:</label>
+                  <textarea class="form-control" name="message" id="txt-msg" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn text-center" type="button" id="btnContact">Submit</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
         <!-- End of Contact -->
       </div>
     </main>
@@ -111,7 +229,22 @@
 
 
     <!-- Footer -->
+    <div class="d-flex flex-sm-row flex-md-column align-items-md-end justify-content-center" id="footer">
+      <!-- <ul class="ul-nostyle">
+        <li><a href="mailTo:nessa.agustin@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/nessa-agustin/"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/HealthConnectNhey"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/nessa.agustin"><i class="fa-brands fa-facebook"></i></a></li>
+      </ul> -->
 
+        <div><a href="mailTo:nessa.agustin@gmail.com"><i class="fa-sodivd fa-at"></i></a></div>
+        <div><a href="https://www.linkedin.com/in/nessa-agustin/"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div><a href="https://github.com/HealthConnectNhey"><i class="fa-brands fa-github"></i></a></div>
+        <div><a href="https://www.facebook.com/nessa.agustin"><i class="fa-brands fa-facebook"></i></a></div>
+    </div>
+    <div>
+      <p class="text-center">&copy; 2022 Nessa Agustin</p>
+    </div>
 
     <!-- End of Footer -->
 
