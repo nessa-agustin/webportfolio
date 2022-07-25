@@ -26,7 +26,7 @@ body {
     padding-right: 10px;
 }
 
-.nav-link.active, #btnResume, #btnContact {
+.nav-link:hover, #btnResume, #btnContact {
     background-color: rgb(88, 9, 88) !important;
     font-weight: 600;
     color: white;
@@ -38,7 +38,12 @@ body {
 
 #landing-page {
     height: 100vh;
-    padding-top: 200px;
+    padding-top: 15vh;
+}
+
+#profile-pic {
+    border: 3px solid rgb(88, 9, 88);
+    border-radius: 1.5rem;
 }
 
 .view-section {
@@ -81,7 +86,7 @@ main h3 {
     font-size: 2rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 900px){
 
     #footer {
         position: fixed;
@@ -92,6 +97,36 @@ main h3 {
     }
 
 }
+
+@media (min-width: 300px){
+
+    #footer {
+        padding-top: 200px;
+    }
+
+}
+
+
+#projects img {
+    height: 130px !important;
+    text-align: center !important;
+}
+
+#projects .card {
+    height: 100%;
+    margin-top: 48px;
+}
+
+#projects .card-body {
+    text-align: center !important;
+}
+
+#projects .card-body p {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+
 
 
 
