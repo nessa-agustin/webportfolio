@@ -65,6 +65,10 @@ article {
     padding-top: 200px;
 }
 
+#projects .card-header h4 {
+    display: inline;
+}
+
 main h3 {
     letter-spacing: 20px;
     padding-bottom: 2rem;
