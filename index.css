@@ -24,6 +24,8 @@ body {
 
 .nav-item {
     padding-right: 10px;
+    padding-left: 10px;
+    
 }
 
 .nav-link:hover, #btnResume, #btnContact {
@@ -37,8 +39,7 @@ body {
 }
 
 #landing-page {
-    height: 100vh;
-    padding-top: 15vh;
+    padding-top: 100px;
 }
 
 #photo-container {
@@ -57,13 +58,9 @@ article {
 }
 
 .view-section {
-    height: 100vh;
     padding-top: 200px;
 }
 
-#projects {
-    padding-top: 200px;
-}
 
 #projects .card-header h4 {
     display: inline;
@@ -102,31 +99,12 @@ main h3 {
 
 @media (min-width: 900px){
 
-    #footer {
-        position: fixed;
-        right: 0;
-        bottom: 200px;
-        left: 0;
-        z-index: 1030;
-    }
-
     #landing-page h1 {
         font-size: 6.75rem;
     }
 
 }
 
-@media (min-width: 300px){
-
-    #footer {
-        padding-top: 200px;
-    }
-
-    /* #landing-page h1 {
-        font-size: 9vw;
-    } */
-
-}
 
 
 #projects img {
